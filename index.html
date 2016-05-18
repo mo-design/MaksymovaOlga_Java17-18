@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>ДЗ 17-18 Максимовой Ольги</title>
+	<link rel="stylesheet" href="css/zero-style.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/jquery.selectbox.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<!-- <script type="text/javascript" src="js/jquery.animate-colors.js"></script>
+	<script type="text/javascript" src="js/slide_script.js"></script>
+	<script type="text/javascript" src="js/jquery.selectbox-0.6.1.js"></script>
+	<script type="text/javascript" src="js/jquery.checkbox.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>  -->
+	<script type="text/javascript" src="js/build/script.main.min.js"></script>
+</head>
+
+<body>
+	
+	
+	<nav class="mainNav">
+	
+			<ul class="menu">
+				<li class="dropdown"><a href="#">Nav 1 &nbsp; &#9660;</a>
+				<ul class="submenu">
+					<li><a href="#">Nav 1.1</a></li>
+					<li><a href="#">Nav 1.2</a></li>
+					<li><a href="#">Nav 1.3</a></li>
+					<li><a href="#">Nav 1.4</a></li>
+				</ul>
+				</li>
+				<li><a href="#">Nav 2</a></li>
+				<li class="dropdown"><a href="#">Nav 3 &nbsp; &#9660;</a>
+					<ul class="submenu">
+						<li><a href="#">Nav 3.1</a></li>
+						<li><a href="#">Nav 3.2</a></li>
+						<li><a href="#">Nav 3.3</a></li>
+						<li class="dropright"> <a href="#">Nav 3.4 &nbsp; &#9658;</a>
+							<ul class="subsubmenu">
+								<li><a href="#">Nav 3.4.1</a></li>
+								<li><a href="#">Nav 3.4.2</a></li>
+								<li><a href="#">Nav 3.4.3</a></li>
+								<li><a href="#">Nav 3.4.4</a></li>
+								<li><a href="#">Nav 3.4.5</a></li>
+							</ul>
+						</li>
+					<li><a href="#">Nav 3.5</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Nav 4</a></li>
+			<li class="dropdown"><a href="#">Nav 5 &nbsp; &#9660;</a>
+				<ul class="submenu">
+					<li><a href="#">Nav 5.1</a></li>
+					<li><a href="#">Nav 5.2</a></li>
+					<li><a href="#">Nav 5.3</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+		
+	
+	<div class="wrapper">
+	
+	
+		<div class="demoTarget">
+			<select id="default-usage-select">
+				<option value="--">Please select your favorite mood</option>
+				<option value="01">Inspiration</option>
+				<option value="02">Appeasement</option>
+				<option value="03">Hilarity</option>
+				<option value="04">Sad</option>
+				<option value="05">Drive</option>
+				<option value="06">Joy</option>
+				<option value="07">Affectivity</option>
+				<option value="08">Something different</option>
+			</select>
+			<div class="clr"></div>
+		</div>
+	
+	
+	
+		<div id="sliders">
+			<div class="slide"> <img src="img/build/pic1.jpg"/> </div>
+			<div class="slide"> <img src="img/build/pic2.jpg"/> </div> 
+			<div class="slide"> <img src="img/build/pic3.jpg"/> </div>
+			<div class="slide"> <img src="img/build/pic4.jpg"/> </div>		
+			<div class="slide"> <img src="img/build/pic5.jpg"/> </div>
+			<div class="slide"> <img src="img/build/pic6.jpg"/> </div>
+			<div class="slide"> <img src="img/build/pic7.jpg"/> </div>
+			<div class="slide"> <img src="img/build/pic8.jpg"/> </div>
+		</div>
+		
+	
+	</div>	
+		
+	
+	<div class = "main">
+		<div class="mainWrapper">
+			<h1>Some title</h1>
+			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+			
+			
+			<form class="jsForm">
+	
+				<label for="ch1">JS Чекбокс 1:</label>
+				<span class="jsCheck"><input type="checkbox" id="ch1" ></span>
+				<label for="ch2">JS Чекбокс 2:</label>
+				<span class="jsCheck"><input type="checkbox" id="ch2" ></span>
+				<label for="ch3">JS Чекбокс 3:</label>
+				<span class="jsCheck"><input type="checkbox" id="ch3" ></span>
+		
+			</form>
+	
+		
+			<form class="cssForm">
+	
+				<input type="checkbox" id="test-check1" >
+				<label for="test-check1">CSS Чекбокс 1:</label>
+			
+				<input type="checkbox" id="test-check2" >
+				<label for="test-check2">CSS Чекбокс 2:</label>
+					
+				<input type="checkbox" id="test-check3" >
+				<label for="test-check3">CSS Чекбокс 3:</label>
+			</form>
+
+			
+			
+			
+		</div>
+	
+	</div>
+	
+</body>
+</html>
